@@ -1,39 +1,76 @@
-<div align="center">
-  <img height="200" src="https://media2.giphy.com/media/2IudUHdI075HL02Pkk/giphy.gif?cid=6c09b952hzps7rnnrel0gypk8zuf2ksliu6dzqtrqnwihmkv&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Welcome Gif"/>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diya's Profile</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      font-family: 'Monotype Corsiva', cursive;
+      font-size: 36px;
+      color: #4a90e2;
+      margin: 10px 0;
+    }
+    .header h3 {
+      font-size: 24px;
+      color: #4a90e2;
+      margin: 10px 0;
+    }
+    .about-me,
+    .language-tools,
+    .stats {
+      margin-bottom: 30px;
+    }
+    .about-me h3,
+    .language-tools h3,
+    .stats h3 {
+      font-size: 20px;
+      color: #4a90e2;
+      margin-bottom: 10px;
+    }
+    .about-me p,
+    .language-tools p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .stats {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Hi 👋, I'm Diya</h1>
+      <h3>A passionate Dev from Nepal</h3>
+    </div>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/diya-upreti/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="LinkedIn" />
-  </a>
-  <a href="https://www.facebook.com/diya.upreti.161" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="25" alt="Facebook" />
-  </a>
-  <a href="https://www.instagram.com/_dia.u/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Instagram" />
-  </a>
-</div>
+    <div class="about-me">
+      <h3>👩‍💻 About Me</h3>
+      <p>I'm Diya <br><br>- 🔭 I’m a student<br>- 💯 I am interested in Data Science</p>
+    </div>
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=rojanparajuli&" alt="visitor badge" />
-</div>
-
-<h1 align="center">Hi 👋, I'm Diya</h1>
-<h3 align="center">A passionate Dev from Nepal</h3>
-
-<h3 align="left">👩‍💻 About Me</h3>
-<p align="left">
-  I'm Diya <br><br>
-  - 🔭 I’m a student<br>
-  - 💯 I am interested in Data Science
-</p>
-
-<h3 align="left">🧑‍💻 Languages and Tools</h3>
-<p align="left">
-  <a href="https://developer.android.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/>
-  </a>
-  <a href="https://www.blender.org/" target="_blank" rel="noreferrer">
+    <div class="language-tools">
+      <h3>🧑‍💻 Language and Tools</h3>
+      <p> 
+        <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a>
+        <a href="https://www.blender.org/" target="_blank" rel="noreferrer">
     <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/>
   </a>
   <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
@@ -90,11 +127,17 @@
   <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer">
     <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/>
   </a>
-</p>
+      </p>
+    </div>
 
-<h3 align="left">🔥 My Stats :</h3>
-<div align="center">
+    <div class="stats">
+      <h3>🔥 My Stats</h3>
+     <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=diyaupreti&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=blueberry&locale=en&hide_border=false&order=1" height="150" alt="stats graph"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=diyaupreti&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=blueberry&hide_border=false&order=2" height="150" alt="languages graph"/>
   <img src="https://streak-stats.demolab.com?user=diyaupreti&locale=en&mode=daily&theme=blueberry&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"/>
 </div>
+    </div>
+  </div>
+</body>
+</html>
